@@ -16,7 +16,8 @@ function App() {
   const data = [];
   const fetchError = null;
   const isLoading = false;
-
+  const change = "changed"; 
+  
   useEffect(() => {
     setItems(data);
   }, [data]);
